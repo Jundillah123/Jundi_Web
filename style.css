@@ -1,0 +1,135 @@
+/* Resetting basic styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #ffe6f7; /* Latar belakang pink pastel */
+    color: #ff66b2; /* Warna teks utama */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    text-align: center;
+}
+
+.container {
+    width: 90%;
+    max-width: 600px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+header {
+    margin-bottom: 30px;
+}
+
+h1 {
+    font-size: 2.5rem;
+    color: #ff3385;
+}
+
+.subheading {
+    font-size: 1.2rem;
+    color: #ff66b2;
+    font-style: italic;
+}
+
+.content {
+    margin-bottom: 20px;
+}
+
+.love-message h2 {
+    font-size: 2rem;
+    margin-bottom: 15px;
+    color: #ff4d94;
+}
+
+.message {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    color: #ff66b2;
+}
+
+.love-button {
+    font-size: 1.2rem;
+    background-color: #ff3385;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.love-button:hover {
+    background-color: #ff4d94;
+}
+
+footer {
+    margin-top: 30px;
+    font-size: 1rem;
+    color: #ff66b2;
+    font-style: italic;
+}
+
+.footer-text {
+    font-size: 1.1rem;
+}
+
+.love-message {
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    border-radius: 15px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    max-width: 500px;
+    margin: 50px auto;
+}
+
+/* Styling untuk judul */
+.love-message h2 {
+    font-family: 'Arial', sans-serif;
+    color: #ff4081;
+    font-size: 24px;
+}
+
+/* Styling untuk pesan */
+.love-message .message {
+    font-family: 'Arial', sans-serif;
+    color: #555;
+    font-size: 18px;
+    margin: 15px 0;
+}
+
+/* Styling untuk tombol love */
+.love-button {
+    background-color: #ff5c8d;
+    color: white;
+    font-size: 20px;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+/* Efek hover untuk tombol love */
+.love-button:hover {
+    background-color: #ff2d58;
+}
+
+/* Styling untuk gambar yang disembunyikan */
+.hidden-photo {
+    display: none;
+    margin-top: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    max-width: 100%;
+    height: auto;
+}
